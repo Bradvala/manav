@@ -1,0 +1,27 @@
+package mnv;
+import java.util.Scanner;
+public class manav {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        double a,e,d,m,p,tt;
+        System.out.println("Kaç kilo armut aldınız?");
+        a = inp.nextDouble();
+        System.out.println("Kaç kilo elma aldınız?");
+        e = inp.nextDouble();
+        System.out.println("Kaç kilo domates aldınız?");
+        d = inp.nextDouble();
+        System.out.println("Kaç kilo muz aldınız?");
+        m = inp.nextDouble();
+        System.out.println("Kaç kilo patlıcan aldınız?");
+        p = inp.nextDouble();
+        tt = (a*2.14) + (e*3.67) + (d*1.11) + (m*0.95) + (p*5.00);
+        System.out.println("Toplam tutar:" + tt );
+        
+
+
+
+
+
+
+    }
+}
